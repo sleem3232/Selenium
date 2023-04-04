@@ -47,7 +47,7 @@ namespace WindowsFormsApp2
                     IWebElement Email = driver.FindElement(By.CssSelector("input[placeholder='Email Address']"));
                     if (Email != null)
                     {
-                        Email.SendKeys($"salim@gmail.com");
+                        Email.SendKeys($"salim{i}@gmail.com");
                     }
                     IWebElement Password = driver.FindElement(By.CssSelector("input[placeholder='Password']"));
                     if (Password != null)
